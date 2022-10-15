@@ -6,7 +6,7 @@ export default function App() {
 			sideBar={
 				<ul>
 					<li>
-						<p>asd</p>
+						<p>omg</p>
 					</li>
 					<li>
 						<p>ad</p>
@@ -40,6 +40,7 @@ export default function App() {
 			topBar={<div>Topbar</div>}
 			content={
 				<div>
+					<h1>START | {import.meta.env.REACT_APP_TEST} | END</h1>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam porro expedita blanditiis sequi doloribus optio fuga
 					repellendus. Veniam consectetur provident reiciendis quibusdam laudantium, dolorem voluptas distinctio accusantium hic!
 					Accusamus ratione deserunt odio, tempora commodi tempore quas mollitia praesentium saepe quisquam maiores unde fuga
